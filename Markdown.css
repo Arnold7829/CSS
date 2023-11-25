@@ -1,0 +1,81 @@
+html {
+  font-size: 50%;
+  overflow-y: scroll;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  text-align: justify;
+}
+ .purple {
+    color:inherit;
+  }
+  .purple:hover {
+    color:rgb(107,79,187);
+  }
+.tealseven {
+    color:inherit;
+  }
+
+  .tealseven:hover{
+    color: rgb(0,179,104)
+  }
+
+.bleuleger {
+    color:inherit;
+  }
+
+  .bleuleger:hover{
+    color: rgb(97,158,218)
+  }
+
+  :root {
+    --main-color:#06c;
+    --bleuleger:rgb(97,158,218);
+    --orangeleger:rgb(246,188,192);
+    --tealseven:rgb(0,179,104);
+}
+
+#foo {
+    color: var(--main-color);
+}
+
+em { color: var(--tealseven) ;}
+h5 { color: var(--bleuleger) ;}
+
+body {
+body {
+    font-size: 10pt;
+    max-width: 100%;
+  }
+  
+em { color: orange ;}
+
+h1 {
+  font-size: 2em;
+}
+
+h2 {
+  font-size: 1.5em;
+}
+
+h3 {
+  font-size: 1.2em;
+}
+
+h4 {
+  font-size: 1 em;
+}
+
+h5 {
+  font-size: 1em;
+}
+
+h6 {
+  font-size: 0.9em;
+
+}
+
+@media only screen and (min-width: 480px) {
+  body {
+    font-size: 11px;
+  }
+}
